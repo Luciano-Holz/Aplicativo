@@ -1,0 +1,182 @@
+/*Inicio dos estilos gerais*/
+.container {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;  
+    background-color: #f8f8f8;
+}
+
+.icones {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px; 
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.tela {
+    margin-top: 36px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    padding-bottom: 65px;
+}
+
+i {
+    margin-right: 10px;
+    float: right;
+}
+
+.btn-branco {
+    color: #fff;
+    background-color: #00B212;
+    border: none;
+}
+.btn-branco:hover {
+    
+    background-color:#0a5712;
+}
+
+h1 { 
+    display: inline;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #00B212 68%, #000 32%);
+}
+
+h3 {
+    margin-top: 90px;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    background-color: rgb(255, 255, 255); 
+}
+
+.voltar {
+    float: left;
+    margin: 16px 0 0 54px;
+    color: #000;
+}
+button.btn-primary {
+    background-color: #00B212;
+}
+
+button.btn-primary:hover {
+    background-color: #0a5712;
+}
+a {
+    text-decoration: none;
+    
+}
+.categ {
+    margin: 32px 4px 0 4px;
+    text-align: left;
+    padding: 20px 10px 0 10px;
+    min-height: 70px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px #000;
+    overflow: hidden;
+}
+span {
+    display: block;
+    text-align: left;
+    color: #000;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+/*Fim estilos gerais*/
+
+/*Começa a Tela Inicial*/
+.tela1 {
+    margin-top: 120px;  
+}
+.btn1 {
+    margin-top: 140px;
+    border: none;
+}
+/*Fim Tela Inicial*/
+
+/*Começa a tela usuário*/
+.admin {
+    margin: 4px 54px 0 0;
+    color: #000;
+    font-family: 'Fredoka One', cursive;
+}
+
+.nomes {
+    display: block;
+    max-width: 55%;
+    float: left;
+    font-size: 16px;
+}
+.ver {
+    float: right;
+    color: #fff;
+    background-color: #00B212;
+    width: 64px;
+    height: 32px;
+    border-radius: 10px;
+}
+/*Fim da tela usuário*/
+
+/*Começa a tela conteúdo usuário*/
+.spanConteudo {
+    color: #00B212;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: -18px;
+}
+.pConteudo {
+    text-align: left;
+    margin-top: -35px;
+    margin-left: 8px;
+    margin-bottom: -10px;
+}
+/*Fim da tela conteúdo usuário*/
+
+/*Começa a tela Admin*/
+.btnEditDel {
+    float: right;
+    margin-top: -6px;
+}
+
+.editar {
+    background-color: #00B212;
+    width: 45px;
+    height: 45px;
+    border: none;
+}
+.editarI {
+    color: #fff;
+}
+.deletar {
+    background-color: rgb(255, 255, 255);
+    width: 45px;
+    height: 45px;
+    margin: 0 8px;
+    border: none;
+}
+.deletarI {
+    color: #FA2B2B;
+}
+/*Fim da tela Admin*/
+
+/*Começa a tela conteudo Admin*/
+.valoresEdit {
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 16px; 
+}
+.valores {
+    border-radius: 10px;
+    height: 40px;  
+}
+hr {
+    color: #00B212;
+}
+/*Fim da tela conteudo Admin*/
